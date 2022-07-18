@@ -1,0 +1,112 @@
+/*Colors and fonts*/
+
+body{
+background-color: #FFFFFF;
+color: tgb(50, 50, 50);
+font-family: Helvetica;
+font-size: 16px;
+line-height: 1,9;
+letter-spacing: 1px;
+text-justify: center;
+font-weight: lighter;
+}
+
+h1, h2, h3 { 
+	font-family: Courier;
+	line-height: 2;
+	letter-spacing: 2px;
+}
+h1{
+	color: #4F332A;
+	font-weight: 500;
+	font-size: 25px;
+}
+h2, h3{
+	color: #AD8B73;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bolder;
+	color: #E3CAA5;
+	transition: color 0.3s ease;
+}
+a:hover{
+	color: blanchedalmond;
+}
+
+
+/* Custom design with class */
+
+.container{
+	width: 960px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	margin-top: 18px;
+	margin-bottom: 18px;
+	text-align: center;
+	border-radius: 5px;
+}
+.card-white:hover{
+	background-color: #FFFDF1;
+	transition: background 0.3s ease;
+
+}
+
+
+.btn-brown{
+	background-color: #E3CAA5;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-brown:hover {
+	background-color: white;
+	color: blanchedalmond;
+	transition: background 0.3s ease
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;	
+}
+.list-inline li{
+display: inline ;	
+padding: 20px; 
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+/* Custom design with id */
+#profile{
+	border-radius: 50%;
+	width: 250px;
+}
+#introduction p {
+	margin-bottom: 35px;
+
+}
+	
+
